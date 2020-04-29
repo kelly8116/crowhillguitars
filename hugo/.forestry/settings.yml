@@ -23,8 +23,8 @@ sections:
   match: "**/*"
 upload_dir: hugo/static/img
 public_path: "/img"
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: hugo/static/img
+use_front_matter_path: true
 file_template: ":year:/:month:/:day:/:filename:"
 build:
   preview_env:
