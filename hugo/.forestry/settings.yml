@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: ''
+  label: Collections
+  create: all
+  match: "**/*"
+  templates:
+  - collection-item
+- type: directory
   path: hugo/content
   label: Pages
   create: all
